@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    android:fitsSystemWindows="true"
+    android:background="#F7FFFFFF"
+    android:minWidth="19dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F7FFFFFF"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FED32C"
+            app:subtitleTextColor="#0A0A0A"
+            app:titleTextColor="#111111" />
+
+
+
+        <!--    Your code here -->
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/sayfaikibackground"
+            android:layout_height="match_parent"
+            tools:context=".sayfaiki">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="279dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/social_media"
+
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:id="@+id/imageSlider"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+
+                app:iss_corner_radius="5"
+                app:iss_selected_dot="@drawable/default_selected_dot"
+                app:iss_unselected_dot="@drawable/default_unselected_dot"
+                app:iss_period="1000"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:src="@drawable/about_us_iki"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginLeft="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txtCredits"
+                android:autoLink="web"
+                android:id="@+id/infoTxtCredits"
+                android:layout_centerInParent="true"
+                android:linksClickable="true"></TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/drawer_menu">
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

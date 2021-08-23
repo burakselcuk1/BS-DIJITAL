@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FED32C"
+    android:layout_height="50dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="BS DİJİTAL"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_menu_24"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="10dp"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>

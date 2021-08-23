@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "612265876037",
+    "project_id": "bsdijital-5a648",
+    "storage_bucket": "bsdijital-5a648.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612265876037:android:afa3c2ef5c1aaf3f5a612c",
+        "android_client_info": {
+          "package_name": "com.bsdijital.burakandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612265876037-ll6kmjiuuptd03ekti8h1r0vbsjdtum3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKu-g4TFTp0_PQq89EKaDr0tNbZiz_5CU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612265876037-ll6kmjiuuptd03ekti8h1r0vbsjdtum3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
